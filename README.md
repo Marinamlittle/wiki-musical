@@ -1,24 +1,21 @@
-# 🎵 WikiMusic
+# 🎵 MusicPedia
 
-¡Bienvenido/a a **MusicPedia**! Este proyecto es una enciclopedia musical moderna diseñada con una estética minimalista.
+**MusicPedia** es una aplicación web que combina la inmediatez de una plataforma de descubrimiento musical con la profundidad de una enciclopedia. Está diseñada para usuarios que buscan ir más allá de la simple escucha: explorar discografías, conocer estadísticas reales de los artistas y guardar sus descubrimientos en una biblioteca personal.
 
-El objetivo principal es ofrecer una experiencia de usuario fluida y visualmente atractiva para descubrir artistas, álbumes y curiosidades del mundo de la música.
+## 🚀 Características Principales (Core Pages)
 
-## 🚀 Tecnologías utilizadas (de momento)
+La aplicación está estructurada en torno a las siguientes vistas principales:
 
-* **React + Vite**: Para un desarrollo rápido y eficiente.
-* **Tailwind CSS v4**: Utilizando un diseño oscuro (Dark Mode).
+* **Página de Artista (Artist Page):** El perfil completo del músico. Muestra su información biográfica, discografía completa ordenada por lanzamientos y estadísticas en tiempo real obtenidas mediante API (oyentes mensuales, nivel de popularidad, seguidores).
+* **Página de Álbum (Album Page):** Vista detallada de un disco. Incluye el *tracklist* interactivo con duraciones y un sistema de enlaces cruzados en las colaboraciones (*featurings*) que permite saltar directamente al perfil de los artistas invitados.
+* **Explorador de Géneros (Genre Hub):** Un directorio para descubrir música por estilos. Al entrar en un género específico (ej. *Indie*, *Jazz*, *Electrónica*), el usuario accede a una selección curada de sus "Artistas Referentes" y "Álbumes Esenciales".
+* **Tendencias (Top Charts):** El radar de actualidad musical. Permite filtrar entre tendencias globales o locales, mostrando el Top 10 de canciones más escuchadas, artistas que se han hecho virales recientemente y un radar de nuevos lanzamientos.
+* **Autenticación (Login/Registro):** Sistema de acceso unificado (con opciones de inicio de sesión social, como Google o Spotify) para que los usuarios puedan tener su propia cuenta en la plataforma.
+* **Mi Biblioteca (User Profile):** El espacio personal del usuario. Aquí se almacena toda la música, álbumes y artistas que el usuario ha marcado como "Favoritos" durante su navegación.
 
-## ✨ Características actuales
+## 🛠️ Stack Tecnológico
 
-- [x] **Enfoque Mobile First**: Diseño optimizado para dispositivos móviles desde la primera línea de código.
-- [x] **Navbar Premium**: Barra de navegación con efecto *Glassmorphism* y menú responsivo.
-
-## 🛠️ Próximos pasos 
-
-- [ ] Implementar buscador dinámico de artistas.
-- [ ] Conexión con **APIs de música** (Spotify / Last.fm) para datos reales.
-- [ ] Carrusel de artistas destacados con tarjetas interactivas.
-- [ ] Sección de detalles del artista con biografía y discografía.
-
----
+* **Frontend:** React, JavaScript (JS), HTML
+* **Build Tool:** Vite
+* **Estilos:** Tailwind CSS
+* **Datos / APIs:** Integración con la API de Spotify (para catálogo musical y estadísticas)
