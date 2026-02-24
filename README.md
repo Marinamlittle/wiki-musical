@@ -1,6 +1,6 @@
 # 🎵 WikiMusic
 
-¡Bienvenido/a a **WikiMusic**! Este proyecto es una enciclopedia musical moderna diseñada con una estética minimalista, fuertemente inspirada en interfaces como **Apple Music** y **Spotify**.
+¡Bienvenido/a a **MusicPedia**! Este proyecto es una enciclopedia musical moderna diseñada con una estética minimalista.
 
 El objetivo principal es ofrecer una experiencia de usuario fluida y visualmente atractiva para descubrir artistas, álbumes y curiosidades del mundo de la música.
 
@@ -12,7 +12,7 @@ El objetivo principal es ofrecer una experiencia de usuario fluida y visualmente
 ## ✨ Características actuales
 
 - [x] **Enfoque Mobile First**: Diseño optimizado para dispositivos móviles desde la primera línea de código.
-- [x] **Navbar Premium**: Barra de navegación con efecto *Glassmorphism* (desenfoque de cristal) y menú responsivo.
+- [x] **Navbar Premium**: Barra de navegación con efecto *Glassmorphism* y menú responsivo.
 
 ## 🛠️ Próximos pasos 
 
