@@ -1,7 +1,5 @@
 # 🎵 MusicPedia
 
-**MusicPedia** es una aplicación web que combina la inmediatez de una plataforma de descubrimiento musical con la profundidad de una enciclopedia. Está diseñada para usuarios que buscan ir más allá de la simple escucha: explorar discografías, conocer estadísticas reales de los artistas y guardar sus descubrimientos en una biblioteca personal.
-
 ## 🚀 Características Principales (Core Pages)
 
 La aplicación está estructurada en torno a las siguientes vistas principales:
