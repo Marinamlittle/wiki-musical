@@ -1,10 +1,8 @@
-/* Reseteo básico */
 @import "tailwindcss";
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @theme {
-  --font-sans: "Inter", sans-serif;
+  --font-sans: "Open Sans", sans-serif;
 }
 
 /*HTML Estilos Globlales*/
@@ -15,6 +13,14 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: #121015;
+/*ANIMACIÓN DE SCROLL*/
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 100s linear infinite; 
 }

@@ -1,11 +1,17 @@
-import HomePage from './pages/homepage'
+
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/homepage'; //
+import SearchPage from './pages/SearchPage';
+import ArtistPage from './pages/ArtistPage'; // 1. Importa la nueva página
 
 function App() {
   return (
-    <>
-      <HomePage />
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/search/:termino" element={<SearchPage />} />
+      <Route path="/artist/:nombre" element={<ArtistPage />} />    
+    </Routes>
+  );
 }
 
-export default App
+export default App;
