@@ -1,16 +1,19 @@
-# React + Vite
+# 🎵 MusicPedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Características Principales (Core Pages)
 
-Currently, two official plugins are available:
+La aplicación está estructurada en torno a las siguientes vistas principales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Página de Artista (Artist Page):** El perfil completo del músico. Muestra su información biográfica, discografía completa ordenada por lanzamientos y estadísticas en tiempo real obtenidas mediante API (oyentes mensuales, nivel de popularidad, seguidores).
+* **Página de Álbum (Album Page):** Vista detallada de un disco. Incluye el *tracklist* interactivo con duraciones y un sistema de enlaces cruzados en las colaboraciones (*featurings*) que permite saltar directamente al perfil de los artistas invitados.
+* **Explorador de Géneros (Genre Hub):** Un directorio para descubrir música por estilos. Al entrar en un género específico (ej. *Indie*, *Jazz*, *Electrónica*), el usuario accede a una selección curada de sus "Artistas Referentes" y "Álbumes Esenciales".
+* **Tendencias (Top Charts):** El radar de actualidad musical. Permite filtrar entre tendencias globales o locales, mostrando el Top 10 de canciones más escuchadas, artistas que se han hecho virales recientemente y un radar de nuevos lanzamientos.
+* **Autenticación (Login/Registro):** Sistema de acceso unificado (con opciones de inicio de sesión social, como Google o Spotify) para que los usuarios puedan tener su propia cuenta en la plataforma.
+* **Mi Biblioteca (User Profile):** El espacio personal del usuario. Aquí se almacena toda la música, álbumes y artistas que el usuario ha marcado como "Favoritos" durante su navegación.
 
-## React Compiler
+## 🛠️ Stack Tecnológico
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React, JavaScript (JS), HTML
+* **Build Tool:** Vite
+* **Estilos:** Tailwind CSS
+* **Datos / APIs:** Integración con la API de Spotify (para catálogo musical y estadísticas)
